@@ -1,0 +1,163 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveSassCompile.settings.autoprefix": [],
+    "css.lint.float": "warning",
+    "css.lint.important": "warning",
+    "css.lint.duplicateProperties": "warning",
+    "css.enabledLanguages": [
+    
+        "html"
+    ],
+    "auto-rename-tag.activationOnLanguage": [
+        
+        "*"
+    ],
+    "indentRainbow.colors": [
+
+        "rgba(255,255,64,0.01)",
+        "rgba(127,255,127,0.01)",
+        "rgba(255,127,255,0.01)",
+        "rgba(79,236,236,0.01)"
+    ],
+    "tabnine.experimentalAutoImports": true,
+    "git.enableSmartCommit": true,
+    
+    "tabnine.disable_file_regex": [
+    
+    ],
+    "files.autoSaveDelay": 1,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveSassCompile.settings.excludeList": [
+
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/assets/css"
+        }
+    ],
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.scale": 3,
+    "editor.minimap.enabled": false,
+    "[json]": {
+
+
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ],
+        "editor.defaultFormatter": "vscode.json-language-features",
+
+       
+    },
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Andromeda Colorizer",
+    "liveSassCompile.settings.includeItems": [],
+    "editor.fontLigatures": null,
+    
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<Down>"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<Up>"]
+    },    {
+      "before": ["<C-h>"],
+      "after": ["<Left>"]
+    },    {
+      "before": ["<C-l>"],
+      "after": ["<Right>"]
+    }
+
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]},
+    {
+      "before": ["d"],
+      "after": ["\"", "1", "d"]
+    },
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-c>":false,
+    "<C-v>":false,
+    "<C-z>":false,
+    "<C-x>":false
+  },
+  "typescript.tsdk": "",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "json.maxItemsComputed": 55000,
+  "[scss]": {
+    "editor.defaultFormatter": "MikeBovenlander.formate"
+  },
+"terminal.integrated.shell.linux": "/usr/bin/zsh",
+"git.autofetch": true,
+"window.menuBarVisibility": "compact",
+"editor.fontSize": 16,
+"editor.fontWeight": null,
+"svg.preview.mode": "svg",
+"liveServer.settings.multiRootWorkspaceName": "192.168.0.1",
+"liveServer.settings.mount": [
+
+
+],
+"liveServer.settings.ignoreFiles": [
+
+  ".vscode/**",
+  "**/*.scss",
+  "**/*.sass",
+  "**/*.ts"
+],
+"liveServer.settings.ChromeDebuggingAttachment": false,
+"editor.fontFamily": "MesloLGM Nerd Font",
+"terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+"window.zoomLevel": -1,
+"editor.codeActionsOnSave": null,
+"liveServer.settings.host": "192.168.0.1",
+"liveServer.settings.useLocalIp": true,
+  
+  
+}

@@ -1,0 +1,78 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+j",
+        "command": "extension.vim_ctrl+j",
+        "when": "vim.active && vim.use<C-j>"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-extension.vim_ctrl+j",
+        "when": "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+alt+w",
+        "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "explorer.newFile"
+    },
+    {
+  "key": "ctrl+e",
+  "command": "editor.action.smartSelect.grow",
+  "when": "editorTextFocus"
+    },
+{
+  "key": "ctrl+shift+e",
+  "command": "editor.action.smartSelect.shrink",
+  "when": "editorTextFocus"
+},
+{
+    "key": "ctrl+alt+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+},
+{
+    "key": "ctrl+alt+s",
+    "command": "editor.action.selectToBracket"
+},
+{
+    "key": "alt+8",
+    "command": "cursorDown",
+    "when": "textInputFocus"
+},
+{
+    "key": "alt+7",
+    "command": "cursorLeft",
+    "when": "textInputFocus"
+},
+{
+    "key": "alt+9",
+    "command": "cursorUp",
+    "when": "textInputFocus"
+},
+{
+    "key": "alt+0",
+    "command": "cursorRight",
+    "when": "textInputFocus"
+},
+{
+    "key": "ctrl+alt+7",
+    "command": "cursorWordLeft",
+    "when": "textInputFocus"
+},
+{
+    "key": "ctrl+alt+0",
+    "command": "cursorWordEndRight",
+    "when": "textInputFocus"
+},
+{
+    "key": "ctrl+shift+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "ctrl+i",
+    "command": "quokka.addImport"
+}
+]
